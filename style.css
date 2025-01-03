@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    height: 100vh; 
+    width: 100%;
+}
+
+.left-cont {
+    width: 50%;
+    height: 100%; 
+    padding: 2px;
+}
+
+.right-cont {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%; }
+
+.right-top-bottom {
+    height: 33%; 
+    padding: 2px;
+}
+
+.right-mid {
+    display: flex;
+    height: 34%; 
+}
+
+.mid-cont {
+    width: 50%; 
+    padding: 2px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
